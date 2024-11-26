@@ -1,0 +1,306 @@
+/* General */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1025px;
+    background-image: url("fondo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+/* Imagen de los platos */
+.image-gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: wrap;         
+    gap: 20px;               
+    padding: 20px;           
+    margin: 0 auto;     
+}
+.plato {
+    max-width: 250px;  
+    height: auto;
+}
+/* Estilo de las letras */
+.display-1 {
+    font-weight: 300;
+    line-height: 2;
+    color: white;
+    text-shadow: #000 3px 0 0, #000 2.83487px .98158px 0, #000 2.35766px 1.85511px 0, #000 1.62091px 2.52441px 0, #000 .70571px 2.91581px 0, #000 -.28717px 2.98622px 0, #000 -1.24844px 2.72789px 0, #000 -2.07227px 2.16926px 0, #000 -2.66798px 1.37182px 0, #000 -2.96998px .42336px 0, #000 -2.94502px -.5717px 0, #000 -2.59586px -1.50383px 0, #000 -1.96093px -2.27041px 0, #000 -1.11013px -2.78704px 0, #000 -.13712px -2.99686px 0, #000 .85099px -2.87677px 0, #000 1.74541px -2.43999px 0, #000 2.44769px -1.73459px 0, #000 2.88051px -.83825px 0;
+}
+.display-2 {
+    font-size: 2.1rem;
+    color: #EEBA30;
+    text-shadow: white 3px 0 0, #000 2.83487px .98158px 0, #000 2.35766px 1.85511px 0, #000 1.62091px 2.52441px 0, #000 .70571px 2.91581px 0, #000 -.28717px 2.98622px 0, #000 -1.24844px 2.72789px 0, #000 -2.07227px 2.16926px 0, #000 -2.66798px 1.37182px 0, #000 -2.96998px .42336px 0, #000 -2.94502px -.5717px 0, #000 -2.59586px -1.50383px 0, #000 -1.96093px -2.27041px 0, #000 -1.11013px -2.78704px 0, #000 -.13712px -2.99686px 0, #000 .85099px -2.87677px 0, #000 1.74541px -2.43999px 0, #000 2.44769px -1.73459px 0, #000 2.88051px -.83825px 0;
+}
+.display-3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #EEBA30;
+    text-shadow: white 3px 0 0, #000 2.83487px .98158px 0, #000 2.35766px 1.85511px 0, #000 1.62091px 2.52441px 0, #000 .70571px 2.91581px 0, #000 -.28717px 2.98622px 0, #000 -1.24844px 2.72789px 0, #000 -2.07227px 2.16926px 0, #000 -2.66798px 1.37182px 0, #000 -2.96998px .42336px 0, #000 -2.94502px -.5717px 0, #000 -2.59586px -1.50383px 0, #000 -1.96093px -2.27041px 0, #000 -1.11013px -2.78704px 0, #000 -.13712px -2.99686px 0, #000 .85099px -2.87677px 0, #000 1.74541px -2.43999px 0, #000 2.44769px -1.73459px 0, #000 2.88051px -.83825px 0;
+}
+.display-4 {
+    font-weight: 300;
+    line-height: 1.2;
+    text-shadow: white 3px 0 0, #000 2.83487px .98158px 0, #000 2.35766px 1.85511px 0, #000 1.62091px 2.52441px 0, #000 .70571px 2.91581px 0, #000 -.28717px 2.98622px 0, #000 -1.24844px 2.72789px 0, #000 -2.07227px 2.16926px 0, #000 -2.66798px 1.37182px 0, #000 -2.96998px .42336px 0, #000 -2.94502px -.5717px 0, #000 -2.59586px -1.50383px 0, #000 -1.96093px -2.27041px 0, #000 -1.11013px -2.78704px 0, #000 -.13712px -2.99686px 0, #000 .85099px -2.87677px 0, #000 1.74541px -2.43999px 0, #000 2.44769px -1.73459px 0, #000 2.88051px -.83825px 0;
+}
+.display-5 {
+    font-size: 2.6rem;
+    color: white;
+    text-shadow: #000 3px 0 0, #000 2.83487px .98158px 0, #000 2.35766px 1.85511px 0, #000 1.62091px 2.52441px 0, #000 .70571px 2.91581px 0, #000 -.28717px 2.98622px 0, #000 -1.24844px 2.72789px 0, #000 -2.07227px 2.16926px 0, #000 -2.66798px 1.37182px 0, #000 -2.96998px .42336px 0, #000 -2.94502px -.5717px 0, #000 -2.59586px -1.50383px 0, #000 -1.96093px -2.27041px 0, #000 -1.11013px -2.78704px 0, #000 -.13712px -2.99686px 0, #000 .85099px -2.87677px 0, #000 1.74541px -2.43999px 0, #000 2.44769px -1.73459px 0, #000 2.88051px -.83825px 0;
+}
+p {
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.box-details {
+    margin: 0;
+    color: black;
+    text-align: left;
+}
+/* Icono del admin */
+.admin-icon {
+    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.admin-icon img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.admin-icon img:hover {
+    transform: scale(1.1);
+}
+/* Icono de inicio */
+.inicio-icon {
+    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.inicio-icon img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.inicio-icon img:hover {
+    transform: scale(1.1);
+}
+/* Sección de bienvenida */
+.home-page {
+    text-align: center;
+    padding: 50px 15px;
+    background-color: black;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+}
+/* Pie de pagina */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #EEBA30;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 10;
+}
+/* Botones */
+.btn-auth {
+    display: inline-block;
+    padding: 1em 2em;
+    color: white;
+    font-size: 1.2em;
+    margin: 0.5em;
+    border-radius: 20px;
+}
+.auth-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+}
+.auth-form form {
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    margin-bottom: 1.5em;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+.form-group input:focus {
+    border-color: #AE0001;
+    outline: none;
+}
+.form-group select {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.reservation-form {
+    background-color: #fff;
+    margin: 2em auto;
+    padding: 2em;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+}
+/* Botones */
+.btn-submit {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn-reservp {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 1.1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* Tabla de Mesas Disponibles */
+.mesas-disponibles {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+}
+.mesas-disponibles table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.mesas-disponibles th, .mesas-disponibles td {
+    text-align: left;
+    padding: 12px 15px;
+    border: 7px double black;
+}
+.mesas-disponibles th {
+    background-image: linear-gradient(to bottom, #e15b3d, #f39d24f7); ;
+    color: black;
+}
+.mesas-disponibles td {
+    background-color: #f9f9f9;
+}
+.mesas-disponibles tr:nth-child(even) td {
+    background-color: #f1f1f9;
+}
+.mesas-disponibles tr:hover td {
+    background-color: #f0f0f0;
+}
+/* Color para mesas disponibles */
+.disponible {
+    color: green;
+    font-weight: bold;
+}
+/* Color para mesas reservadas */
+.reservada {
+    color: red;
+    font-weight: bold;
+}
+/* Botones */
+.reserva-btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    max-width: 600px;
+}
+.reserva-btn-container form {
+    display: inline-block;
+}
+/* Sección de confirmación */
+.confirmation {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    text-align: center;
+}
+.confirmation h2 {
+    font-size: 35px;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+.confirmation p {
+    font-size: 16px;
+    color: #8B0000;
+    margin-bottom: 15px;
+}
+.confirmation .reservation-details {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.confirmation .reservation-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.confirmation .reservation-details strong {
+    color: black;
+}
+/* Botón de retorno */
+.btn-return {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* Panel de administrador */
+.panel-box {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    text-align: center;
+}

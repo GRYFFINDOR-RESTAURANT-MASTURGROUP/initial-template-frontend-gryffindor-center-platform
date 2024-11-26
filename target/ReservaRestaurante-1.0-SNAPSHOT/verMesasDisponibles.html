@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disponibilidad de Mesas</title>
+    <link rel="stylesheet" href="resources/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="box-decoration-slice bg-gradient-to-l from-red-600 to-yellow-500">
+        <h1 class="display-5">Mesas Disponibles</h1>
+        <div class="inicio-icon">
+            <a href="inicio.html" title="Inicio">
+                <img src="resources/inicio-icon.png" alt="Inicio" class="inicio-icon-img">
+            </a>
+        </div>
+    </header>
+    <section class="mesas-disponibles backdrop-blur-sm bg-white/30">
+        <table>
+            <thead>
+                <tr>
+                    <th>Número de Mesa</th>
+                    <th>Capacidad</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mesa 1</td>
+                    <td>4 Personas</td>
+                    <td class="disponible">Disponible</td>
+                </tr>
+                <tr>
+                    <td>Mesa 2</td>
+                    <td>2 Personas</td>
+                    <td class="reservada">Reservada</td>
+                </tr>
+                <tr>
+                    <td>Mesa 3</td>
+                    <td>6 Personas</td>
+                    <td class="disponible">Disponible</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="reserva-btn-container ">
+        <form action="verReservasPrevias.html" method="post">
+            <button type="submit" class="btn-submit transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Ver Reservas Previas</button>
+        </form>
+        <form action="reserva.html" method="post">
+            <button type="submit" class="btn-submit transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Continuar con la Reserva</button>
+        </form>
+    </section>
+    <footer class="box-decoration-slice bg-gradient-to-r from-red-600 to-yellow-500">
+        <p><strong>¡¡¡LA MESA DE GRYFFINDOR TE ESPERA!!!</strong></p>
+    </footer>
+</body>
+</html>

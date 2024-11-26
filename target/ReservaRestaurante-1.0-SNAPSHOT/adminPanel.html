@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control - Admin</title>
+    <link rel="stylesheet" href="resources/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="box-decoration-slice bg-gradient-to-l from-red-600 to-yellow-500">
+        <h1 class="display-5">Panel de Administrador</h1>
+    </header>
+    <div class="inicio-icon">
+            <a href="inicio.html" title="Inicio">
+                <img src="resources/inicio-icon.png" alt="Inicio" class="inicio-icon-img">
+            </a>
+        </div>
+    <section class="panel-box backdrop-blur-sm bg-white/30">
+        <h2 class="display-2">Bienvenido, Administrador</h2>
+        <br>
+        <p>Seleccione una opción del menú para gestionar las reservas y mesas del restaurante.</p>
+        <br>
+        <div class="auth-options flex flex-col">
+            <a href="adminReservas.jsp" class="btn-auth transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Ver Reservas</a>
+            <a href="adminMesas.jsp" class="btn-auth transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Gestionar Mesas</a>
+            <a href="reportes.jsp" class="btn-auth transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Generar Reportes</a>
+        </div>
+    </section>
+    <footer class="box-decoration-slice bg-gradient-to-r from-red-600 to-yellow-500">
+        <p><strong>¡¡¡LA MESA DE GRYFFINDOR TE ESPERA!!!</strong></p>
+    </footer>
+</body>
+</html>
+

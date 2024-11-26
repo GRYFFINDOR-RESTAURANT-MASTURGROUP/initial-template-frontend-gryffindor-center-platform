@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Mesas - Restaurante</title>
+    <link rel="stylesheet" href="resources/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="box-decoration-slice bg-gradient-to-l from-red-600 to-yellow-500">
+        <h1 class="display-5">Reservar Mesa</h1>
+        <div class="inicio-icon">
+            <a href="inicio.html" title="Inicio">
+                <img src="resources/inicio-icon.png" alt="Inicio" class="inicio-icon-img">
+            </a>
+        </div>
+    </header>
+    <section class="reservation-form backdrop-blur-sm bg-white/30">
+        <h2 class="display-3"><strong>Hacer una Reserva</strong></h2>
+        <form action="confirmacion.html" method="POST">
+            <div class="form-group">
+                <br>
+                <label for="nombre"><strong>Nombre Completo:</strong></label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><strong>Correo Electrónico:</strong></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha"><strong>Fecha de Reserva:</strong></label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form-group">
+                <label for="hora"><strong>Hora de Reserva:</strong></label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+            <div class="form-group">
+                <label for="personas"><strong>Número de Personas:</strong></label>
+                <select id="personas" name="personas" required>
+                    <option value="1">1 Persona</option>
+                    <option value="2">2 Personas</option>
+                    <option value="3">3 Personas</option>
+                    <option value="4">4 Personas</option>
+                    <option value="5">5 Personas</option>
+                    <option value="6">6 Personas</option>
+                    <option value="7">7 Personas</option>
+                    <option value="8">8 Personas</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Confirmar Reserva</button>
+        </form>
+    </section>
+    <footer class="box-decoration-slice bg-gradient-to-r from-red-600 to-yellow-500">
+        <p><strong>¡¡¡LA MESA DE GRYFFINDOR TE ESPERA!!!</strong></p>
+    </footer>
+</body>
+</html>

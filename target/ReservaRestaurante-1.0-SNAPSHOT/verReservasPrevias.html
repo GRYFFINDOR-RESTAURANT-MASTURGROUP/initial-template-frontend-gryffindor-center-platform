@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Previas</title>
+    <link rel="stylesheet" href="resources/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="box-decoration-slice bg-gradient-to-l from-red-600 to-yellow-500">
+        <h1 class="display-5">Reservas Previas del Cliente</h1>
+        <div class="inicio-icon">
+            <a href="inicio.html" title="Inicio">
+                <img src="resources/inicio-icon.png" alt="Inicio" class="inicio-icon-img">
+            </a>
+        </div>
+    </header>
+    <section class="reservas-container">
+    </section>
+    <section class="reserva-btn-container">
+         <form action="eliminarReserva.html" method="post">
+            <button class="btn-reservp transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Eliminar una Reserva</button>
+        </form>
+        <form action="reserva.html" method="post">
+            <button class="btn-reservp transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-150 shadow-lg shadow-red-500/50">Continuar con la Reserva</button>
+        </form>
+    </section>
+    <footer class="box-decoration-slice bg-gradient-to-r from-red-600 to-yellow-500">
+        <p><strong>¡¡¡LA MESA DE GRYFFINDOR TE ESPERA!!!</strong></p>
+    </footer>
+</body>
+</html>
